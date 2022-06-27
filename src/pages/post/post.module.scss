@@ -1,1 +1,56 @@
 // TODO
+.img {
+  width: 100%;
+  height: 400px;
+}
+
+.post {
+  margin: 3rem auto;
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--heading);
+  }
+
+  .infos {
+    margin-top: .6rem;
+    display: flex;
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--info);
+      font-size: .8rem;
+
+      & + span {
+        margin-left: 1.3rem;
+      }
+
+      svg {
+        margin-right: .4rem;
+      }
+    }
+  }
+
+  .postContent {
+
+    margin: 3rem auto;
+
+    article {
+      margin: 2rem auto;
+    }
+
+    h4 {
+      margin-bottom: .8rem;
+      font-size: 1.35rem;
+      color: var(--heading);
+    }
+
+    p {
+      color: var(--body);
+      font-size: 1rem;
+    }
+  }
+}

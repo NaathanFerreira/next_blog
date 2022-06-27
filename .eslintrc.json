@@ -89,5 +89,11 @@
     "import/resolver": {
       "typescript": {}
     }
-  }
+  },
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto",
+    }
+  ]
 }

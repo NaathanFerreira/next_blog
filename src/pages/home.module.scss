@@ -1,1 +1,56 @@
 // TODO
+.posts {
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 1.9rem;
+      padding-top: 1rem;
+    }
+
+    strong {
+      color: var(--heading);
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 34px;
+    }
+
+    p {
+      color: var(--body);
+      font-size: 1.1rem;
+      line-height: 21px;
+      font-weight: 400;
+    }
+
+    div {
+      margin-top: 1rem;
+      color: var(--info);
+      font-size: .9rem;
+      display: flex;
+
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        & + span {
+          margin-left: 1.3rem;
+        }
+
+        svg {
+          margin-right: .4rem;
+        }
+      }
+    }
+  }
+}
+
+.nextPageButton {
+  margin-top: 3rem;
+  background: transparent;
+  border: none;
+
+  font-size: 1.1rem;
+  color: var(--highlight);
+  font-weight: 600;
+}

@@ -1,0 +1,41 @@
+{
+  "id": "22996443-9864-432a-bbf7-b462ebddcb46",
+  "uid": "consequatur-omnis-aut",
+  "type": "posts",
+  "data": {
+    "title": "orchestrate bleeding-edge e-business",
+    "subtitle": "syndicate interactive content",
+    "author": "brand next-generation action-items",
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=900&h=500&fit=crop"
+    },
+    "content": [
+      {
+        "heading": "leverage robust infomediaries",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Laborum do esse velit occaecat fugiat ipsum nulla aliquip.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "e-enable integrated applications",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Labore ut veniam anim esse aliquip et minim excepteur dolore ea.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}
